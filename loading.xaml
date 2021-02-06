@@ -1,0 +1,57 @@
+﻿<Page x:Class="game_2.loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpflib="clr-namespace:BLCTClassLibrary.WpfLib;assembly=BLCTClassLibrary.WpfLib"
+        xmlns:local="clr-namespace:game_2"
+        mc:Ignorable="d"
+        Title="" Height="800" Width="1100">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="800" VerticalAlignment="Center" Width="1100" Source="/loading_back.png"/>
+        <TextBox x:Name="nowstep" IsEnabled="False" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" Height="92" BorderBrush="{x:Null}" FontSize="30" TextAlignment="Center" Margin="587,435,0,0"/>
+        <TextBox x:Name="nowis" IsEnabled="False" HorizontalAlignment="Left" Margin="233,451,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" Height="60" BorderBrush="{x:Null}" FontSize="30" TextAlignment="Center"/>
+        <Button x:Name="start" Content="开始加载" HorizontalAlignment="Center" Height="108" Margin="0,565,0,0" VerticalAlignment="Top" Width="442" FontSize="40" Click="Button_Click"/>
+        <wpflib:StrokeableLabel  Text="本游戏大部分美术资源来源于网络" Fill="#FF408AFF" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="32" Margin="35,143,585,616" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel  Text="仅作为学习交流使用" Fill="#FF408AFF" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="32" Margin="131,327,681,432" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel  Text="游戏完全免费，禁止任何商业行为" Fill="#FF408AFF" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="32" Margin="35,239,585,520" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel  Text="开发者信息：" Fill="White" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="32" Margin="655,123,253,636" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel  Text="SDU 计科" Fill="White" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="32" Margin="655,191,302,568" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel  Text="19级赵一帆" Fill="White" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="32" Margin="655,248,278,511" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel  Text="B站@D3Tekim" Fill="White" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="32" Margin="655,307,206,452" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel  Text="欢迎加群439631219交流" Fill="White" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="32" Margin="643,723,77,36" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+
+    </Grid>
+</Page>

@@ -1,0 +1,36 @@
+﻿<Page x:Class="game_2.normalshop_detail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:game_2"
+        mc:Ignorable="d"
+        Title="" Height="630" Width="716">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="629" Margin="1,0,0,0" VerticalAlignment="Center" Width="843" Source="/propdetail.png" />
+        <Image x:Name="proppic" HorizontalAlignment="Left" Height="136" Margin="83,51,0,0" VerticalAlignment="Top" Width="108" Source="/98.jpg"/>
+        <TextBox x:Name="nameshow" IsEnabled="False"  HorizontalAlignment="Left" Height="25" Margin="243,45,0,0" Text="瞌睡豆" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" FontSize="20" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="priceshow"  IsEnabled="False" HorizontalAlignment="Left" Height="25" Margin="243,166,0,0" Text="售出价格：100" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" FontSize="20" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="instructionshow" IsEnabled="False" HorizontalAlignment="Left" Height="69" Margin="97,315,0,0" Text="只能用来卖钱滴~" TextWrapping="Wrap" VerticalAlignment="Top" Width="536" FontSize="20" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox x:Name="sellnumber" InputMethod.IsInputMethodEnabled="False"  PreviewTextInput="tb_PreviewTextInput" HorizontalAlignment="Left" Height="22" Margin="105,208,0,0" Text="133" TextWrapping="Wrap" VerticalAlignment="Top" Width="57" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center" FontSize="16"/>
+        <TextBox x:Name="hasnumbershow" IsEnabled="False"  HorizontalAlignment="Left" Height="25" Margin="243,230,0,0" Text="你拥有：333个" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" FontSize="20" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Image x:Name="numberright" HorizontalAlignment="Left" MouseEnter="numberright_MouseEnter" MouseLeave="numberright_MouseLeave" 
+               MouseLeftButtonDown="numberright_MouseLeftButtonDown" MouseLeftButtonUp="numberright_MouseLeftButtonUp" Height="29" Margin="177,204,0,0" VerticalAlignment="Top" Width="30" Source="/button2.png"/>
+        <Image x:Name="numberleft" MouseEnter="numberleft_MouseEnter" MouseLeave="numberleft_MouseLeave"
+               MouseLeftButtonDown="numberleft_MouseLeftButtonDown" MouseLeftButtonUp="numberleft_MouseLeftButtonUp" HorizontalAlignment="Left" Height="29" Margin="62,204,0,0" VerticalAlignment="Top" Width="30" Source="/button1.png"/>
+
+
+        <Image x:Name="quitpic" HorizontalAlignment="Left" Height="71" Margin="404,559,0,0" MouseEnter="quitpic_MouseEnter" MouseLeave="quitpic_MouseLeave" 
+                MouseLeftButtonUp="quitpic_MouseLeftButtonUp" MouseLeftButtonDown="Image_MouseLeftButtonDown" VerticalAlignment="Top" Width="160" Source="/bandicam 2020-10-08 15-34-35-360.jpg" />
+        <Image x:Name="soldoutpic" MouseEnter="soldoutpic_MouseEnter" MouseLeave="soldoutpic_MouseLeave" 
+               MouseLeftButtonDown="soldoutpic_MouseLeftButtonDown" MouseLeftButtonUp="soldoutpic_MouseLeftButtonUp" HorizontalAlignment="Left" Height="61" Margin="158,559,0,0" VerticalAlignment="Top" Width="164" Source="/bandicam 2020-10-12 12-34-12-070.jpg" />
+        <Image x:Name="soldshow" Visibility="Hidden" HorizontalAlignment="Center" Height="272" VerticalAlignment="Center" Width="550" Source="/soldproppc.png" />
+        <Image x:Name="surepic" MouseEnter="surepic_MouseEnter" MouseLeave="surepic_MouseLeave"  Visibility="Hidden"
+               MouseLeftButtonDown="surepic_MouseLeftButtonDown" MouseLeftButtonUp="surepic_MouseLeftButtonUp" HorizontalAlignment="Left" Height="59" Margin="389,390,0,0" VerticalAlignment="Top" Width="111" Source="/确定.jpg"/>
+        <Image x:Name="quit2pic" MouseEnter="quit2pic_MouseEnter" Visibility="Hidden"  MouseLeave="quit2pic_MouseLeave" 
+               MouseLeftButtonDown="quit2pic_MouseLeftButtonDown" MouseLeftButtonUp="quit2pic_MouseLeftButtonUp" HorizontalAlignment="Left" Height="59" Margin="508,389,0,0" VerticalAlignment="Top" Width="111" Source="/取消1.jpg" />
+        <TextBox x:Name="soldtext" IsEnabled="False" HorizontalAlignment="Left" Height="152" Visibility="Hidden" Margin="268,219,0,0" Text="瞌睡豆" TextWrapping="Wrap" VerticalAlignment="Top" Width="325" FontSize="20" Background="{x:Null}" BorderBrush="{x:Null}"/>
+
+
+    </Grid>
+</Page>

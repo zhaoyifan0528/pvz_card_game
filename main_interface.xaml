@@ -1,0 +1,122 @@
+﻿<Page x:Class="game_2.main_interface"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpflib="clr-namespace:BLCTClassLibrary.WpfLib;assembly=BLCTClassLibrary.WpfLib"
+        xmlns:local="clr-namespace:game_2"
+        mc:Ignorable="d"
+        Title="" Height="800" Width="1100">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="61" Margin="108,82,0,0" VerticalAlignment="Top" Width="256" Source="/back1.png"/>
+        <Image x:Name="exppic" HorizontalAlignment="Left" Height="74" Margin="-119,87,0,0" VerticalAlignment="Top" Width="242" Source="/back2.png"/>
+        <Image HorizontalAlignment="Left" Height="761" VerticalAlignment="Top" Width="1150" Source="/界面3.png"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="67" Margin="228,766,0,0" VerticalAlignment="Top" Width="126"/>
+        <Image x:Name="anyebigpic" HorizontalAlignment="Left" Visibility="Hidden" Height="278" Margin="265,122,0,0" VerticalAlignment="Top" Width="590" Source="/yipai.png" MouseLeave="anyesm"/>
+        <Image x:Name="anye" MouseLeftButtonDown="anye_MouseLeftButtonDown" HorizontalAlignment="Left" Height="85" Margin="354,278,0,0" VerticalAlignment="Top" Width="405" RenderTransformOrigin="0.5,0.5" Source="/40585tou.png" MouseEnter="anyebig" MouseLeave="anyesm">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-5.182"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="jiangshibigpic" HorizontalAlignment="Left" Visibility="Hidden"  Height="158" Margin="306,370,0,0" VerticalAlignment="Top" Width="484" Source="/僵尸.png"/>
+        <wpflib:StrokeableLabel x:Name="moneyshow" Text="666666666666" Fill="#FFFFE440" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="18" Margin="182,57,785,720" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel x:Name="quanshow" Text="666666666666" Fill="#FFDD00FF" Stroke="#FFB90707" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="18" Margin="369,57,598,720" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <Image x:Name="gozombie1" HorizontalAlignment="Left" MouseLeftButtonDown="gozombie1_MouseLeftButtonDown" Height="87" Margin="354,400,0,0" VerticalAlignment="Top" Width="415" Source="/41587tou.png" MouseEnter="jiangshibig" MouseLeave="jiangshism"/>
+        <Image HorizontalAlignment="Left" Height="121" Margin="963,0,0,0" VerticalAlignment="Top" Width="119" Source="/合成.png"  />
+        <Image x:Name="hechengbigpic" Visibility="Hidden" HorizontalAlignment="Left" Height="141"  Margin="948,-14,0,0" VerticalAlignment="Top" Width="142" Source="/合成.png"/>
+        <Image HorizontalAlignment="Left" Height="121" Margin="963,0,0,0" VerticalAlignment="Top" Width="119"  MouseEnter="hechengbig" MouseLeave="hechengsm" Source="/119121tou.png"/>
+        <Image HorizontalAlignment="Left" Height="114" Margin="844,-4,0,0" VerticalAlignment="Top" Width="118"   Source="/仓库.png"/>
+        <Image x:Name="cangkubigpic" HorizontalAlignment="Left" Visibility="Hidden" Height="132" Margin="835,-14,0,0" VerticalAlignment="Top" Width="145"   Source="/仓库.png"/>
+        <Image HorizontalAlignment="Left" Height="126" Margin="703,1,0,0" VerticalAlignment="Top" Width="132" Source="/商店.png"  />
+        <Image x:Name="shopbigpic"  HorizontalAlignment="Left" Visibility="Hidden" Height="160" Margin="688,-14,0,0" VerticalAlignment="Top" Width="156" Source="/商店.png"  />
+        <Image HorizontalAlignment="Left"  Height="121" Margin="963,0,0,0" VerticalAlignment="Top" Width="119"  MouseEnter="hechengbig" MouseLeave="hechengsm" MouseLeftButtonDown="gotohe" Source="/119121tou.png"/>
+        <Image HorizontalAlignment="Left" Height="121" Margin="839,0,0,0" VerticalAlignment="Top" Width="119"  MouseEnter="cangkubig" MouseLeave="cangkusm" MouseLeftButtonDown="showwarehouse" Source="/119121tou.png"/>
+        <Image HorizontalAlignment="Left" Height="121" Margin="710,0,0,0" VerticalAlignment="Top" Width="119" MouseLeftButtonDown="Image_MouseLeftButtonDown" MouseEnter="shopbig" MouseLeave="shopsm"  Source="/119121tou.png"/>
+        <Image HorizontalAlignment="Left" Visibility="Visible" MouseLeftButtonDown="Image_MouseLeftButtonDown_1" Height="84" Margin="42,10,0,0" VerticalAlignment="Top" Width="77" Source="/4949TOU.png"/>
+        <wpflib:StrokeableLabel x:Name="nameshow" Text="D3Tekim" Fill="#FF40DCFF" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="18" Margin="182,18,785,759" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <MediaElement x:Name="dong"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="pvzmusic"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="lingdang"  LoadedBehavior="Manual" Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="putback"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="putplant"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="shovel"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="getplant"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="getsun"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="buzzer"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="back_game"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="pause"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="shoop"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="splat1"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="splat2"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="splat3"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="lastmusic"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+
+        <MediaElement x:Name="gomain"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+
+        <MediaElement x:Name="readyput"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="zombiecom"  LoadedBehavior="Manual"  Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="muban"  LoadedBehavior="Manual" Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="jiangli"  LoadedBehavior="Manual" Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="jiangshi"  LoadedBehavior="Manual" Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="money"  LoadedBehavior="Manual" Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <MediaElement x:Name="daji"  LoadedBehavior="Manual" Visibility="Hidden" HorizontalAlignment="Left" Height="65" Margin="374,775,0,0" VerticalAlignment="Top" Width="81"/>
+        <Image x:Name="corpse" MouseEnter="corpse_MouseEnter" HorizontalAlignment="Left" Height="113" Margin="20,198,0,0" VerticalAlignment="Top" Width="122" Source="/img3.png"/>
+        <Image x:Name="corpse_big" MouseLeave="corpse_big_MouseLeave" MouseLeftButtonDown="corpse_big_MouseLeftButtonDown" HorizontalAlignment="Left" Visibility="Hidden" Height="177" Margin="10,174,0,0" VerticalAlignment="Top" Width="172" Source="/img3.png"/>
+        <Image x:Name="zombiequnpic" Visibility="Hidden" HorizontalAlignment="Left" Height="397" Margin="208,206,0,0" VerticalAlignment="Top" Width="738" Source="/zombiequn3.png"/>
+        <Image x:Name="zombiequngo" MouseEnter="zombiequngo_MouseEnter" MouseLeave="zombiequngo_MouseLeave" 
+               MouseLeftButtonUp="zombiequngo_MouseLeftButtonUp" MouseLeftButtonDown="zombiequngo_MouseLeftButtonDown" Visibility="Hidden" HorizontalAlignment="Left" Height="59" Margin="527,524,0,0" VerticalAlignment="Top" Width="159" Source="/战斗开始2.png"/>
+        <Image x:Name="zombiequngun" MouseEnter="zombiequngun_MouseEnter" MouseLeave="zombiequngun_MouseLeave" 
+               MouseLeftButtonDown="zombiequngun_MouseLeftButtonDown" MouseLeftButtonUp="zombiequngun_MouseLeftButtonUp" Visibility="Hidden" HorizontalAlignment="Left" Height="51" Margin="748,524,0,0" VerticalAlignment="Top" Width="113" Source="/取消3.png"/>
+        <wpflib:StrokeableLabel x:Name="cengshow" Visibility="Hidden" IsEnabled="False" Text="历史最高层数：5555" Fill="#FF40CAFF" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="24" Margin="234,533,638,236" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <Image HorizontalAlignment="Left" MouseLeftButtonDown="Image_MouseLeftButtonDown_2" Height="120" Margin="591,632,0,0" VerticalAlignment="Top" Width="120" Source="/4949TOU.png"/>
+        <wpflib:StrokeableLabel x:Name="lvshow" IsEnabled="False" Text="LV.1333" Fill="#FF8D8483" Stroke="White" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="18" Margin="30,95,997,682" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel x:Name="idshow" Text="666666666666" Fill="#FF5FFF40" Stroke="#FF981DA1" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="18" Margin="386,18,581,759" Background="{x:Null}" Foreground="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+
+        <TextBox x:Name="expshow" IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="123,106,0,0" Text="123/231" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" TextAlignment="Center"/>
+        <Image x:Name="smshou" HorizontalAlignment="Left"  MouseEnter="smshou_MouseEnter" Height="98" Margin="36,362,0,0" VerticalAlignment="Top" Width="104" Source="/手2.png"/>
+        <Image x:Name="bigshou" HorizontalAlignment="Left" MouseLeave="bigshou_MouseLeave" Visibility="Hidden" MouseLeftButtonDown="Image_MouseLeftButtonDown_3" Height="164" Margin="23,338,0,0" VerticalAlignment="Top" Width="164" Source="/手2.png"/>
+        <Frame x:Name="frame1" Visibility="Hidden" Content="" NavigationUIVisibility="Hidden" HorizontalAlignment="Center" Height="501" Margin="0,140,0,0" VerticalAlignment="Top" Width="854"/>
+        <Frame x:Name="frame2" Content=""  HorizontalAlignment="Left" Visibility="Hidden" NavigationUIVisibility="Hidden" Height="763" Margin="0,-2,0,0" VerticalAlignment="Top" Width="1082"/>
+        <Frame x:Name="frame5" Content=""   NavigationUIVisibility="Hidden" HorizontalAlignment="Left" Height="592" Margin="63,98,0,0" Visibility="Hidden" VerticalAlignment="Top" Width="959"/>
+
+        <Frame x:Name="frame3" Content="" HorizontalAlignment="Center" Visibility="Hidden"  NavigationUIVisibility="Hidden" Height="630" Margin="0,60,0,0" VerticalAlignment="Top" Width="760"/>
+        <Frame x:Name="frame4" Content=""  Visibility="Hidden" NavigationUIVisibility="Hidden" HorizontalAlignment="Left" Height="527" Margin="249,141,0,0" VerticalAlignment="Top" Width="588"/>
+        <Frame x:Name="frame6" Content=""  Visibility="Hidden" NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="559" Margin="142,82,0,0" VerticalAlignment="Top" Width="835"/>
+       
+
+
+
+
+
+
+    </Grid>
+</Page>
