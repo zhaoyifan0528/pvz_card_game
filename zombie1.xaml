@@ -1,0 +1,53 @@
+﻿<Page x:Class="game_2.zombie1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpflib="clr-namespace:BLCTClassLibrary.WpfLib;assembly=BLCTClassLibrary.WpfLib"
+        xmlns:local="clr-namespace:game_2"
+        mc:Ignorable="d"
+        Title="" Height="800" Width="1100">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="761" VerticalAlignment="Top" Width="1150" Source="/僵尸地2.png"/>
+        <Image x:Name="backpic" MouseEnter="close_MouseEnter"  MouseLeave="close_MouseLeave"
+               MouseLeftButtonDown="close_Mouseclick" HorizontalAlignment="Left" Height="96" Margin="982,-4,0,0" VerticalAlignment="Top" Width="107" Source="/返回.png"/>
+        <Image x:Name="zombie11" HorizontalAlignment="Left" MouseEnter="zombie11_MouseEnter" MouseLeave="zombie11_MouseLeave" Height="167" MouseLeftButtonDown="pos11_MouseLeftButtonDown" Margin="206,509,0,0" VerticalAlignment="Top" Width="104" Source="/104167tou.png"/>
+        <wpflib:StrokeableLabel x:Name="moneyshow" Text="666666666666" Fill="#FFFFE440" Stroke="Black" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="18" Margin="174,57,793,720" Background="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <wpflib:StrokeableLabel x:Name="quanshow" Text="666666666666" Fill="#FFDD00FF" Stroke="Black" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="18" Margin="363,57,604,720" Background="{x:Null}">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <Image HorizontalAlignment="Left" Height="167" MouseEnter="zombie12_MouseEnter" MouseLeave="zombie12_MouseLeave" MouseLeftButtonDown="pos12_MouseLeftButtonDown" Margin="447,545,0,0" VerticalAlignment="Top" Width="104" Source="/104167tou.png"/>
+        <Image HorizontalAlignment="Left" Height="167" MouseEnter="zombie13_MouseEnter" MouseLeave="zombie13_MouseLeave"  MouseLeftButtonDown="pos13_MouseLeftButtonDown" Margin="641,523,0,0" VerticalAlignment="Top" Width="104" Source="/104167tou.png"/>
+        <Image HorizontalAlignment="Left" Height="152" MouseEnter="zombie21_MouseEnter" MouseLeave="zombie21_MouseLeave"  MouseLeftButtonDown="pos21_MouseLeftButtonDown" Margin="317,401,0,0" VerticalAlignment="Top" Width="86" Source="/86152tou.png"/>
+        <Image HorizontalAlignment="Left" Height="152" MouseEnter="zombie22_MouseEnter" MouseLeave="zombie22_MouseLeave"  MouseLeftButtonDown="pos22_MouseLeftButtonDown" Margin="531,383,0,0" VerticalAlignment="Top" Width="86" Source="/86152tou.png"/>
+        <Image HorizontalAlignment="Left" Height="152" MouseEnter="zombie23_MouseEnter" MouseLeave="zombie23_MouseLeave"  MouseLeftButtonDown="pos23_MouseLeftButtonDown" Margin="753,423,0,0" VerticalAlignment="Top" Width="86" Source="/86152tou.png"/>
+        <Image HorizontalAlignment="Left" Height="152" MouseEnter="zombie31_MouseEnter" MouseLeave="zombie31_MouseLeave"  MouseLeftButtonDown="pos31_MouseLeftButtonDown" Margin="307,242,0,0" VerticalAlignment="Top" Width="86" Source="/86152tou.png"/>
+        <Image HorizontalAlignment="Left" Height="136" MouseEnter="zombie32_MouseEnter" MouseLeave="zombie32_MouseLeave"  MouseLeftButtonDown="pos32_MouseLeftButtonDown" Margin="550,238,0,0" VerticalAlignment="Top" Width="93" Source="/93136tou.png"/>
+        <Image HorizontalAlignment="Left" Height="136" MouseEnter="zombie33_MouseEnter" MouseLeave="zombie33_MouseLeave"  MouseLeftButtonDown="pos33_MouseLeftButtonDown" Margin="750,280,0,0" VerticalAlignment="Top" Width="93" Source="/93136tou.png"/>
+        <Image HorizontalAlignment="Left" Height="130" MouseEnter="zombie41_MouseEnter" MouseLeave="zombie41_MouseLeave"  MouseLeftButtonDown="pos41_MouseLeftButtonDown" Margin="400,172,0,0" VerticalAlignment="Top" Width="47" Source="/47130tou.png"/>
+        <Image HorizontalAlignment="Left" Height="90" MouseEnter="zombie41_MouseEnter" MouseLeave="zombie41_MouseLeave"  MouseLeftButtonDown="pos41_MouseLeftButtonDown" Margin="338,145,0,0" VerticalAlignment="Top" Width="55" Source="/5590tou.png"/>
+        <Image HorizontalAlignment="Left" Height="136" MouseEnter="zombie42_MouseEnter" MouseLeave="zombie42_MouseLeave"  MouseLeftButtonDown="pos42_MouseLeftButtonDown" Margin="530,86,0,0" VerticalAlignment="Top" Width="93" Source="/93136tou.png"/>
+        <Image HorizontalAlignment="Left" Height="136" MouseEnter="zombie43_MouseEnter" MouseLeave="zombie43_MouseLeave"  MouseLeftButtonDown="pos43_MouseLeftButtonDown" Margin="688,136,0,0" VerticalAlignment="Top" Width="93" Source="/93136tou.png"/>
+        <Image HorizontalAlignment="Left" Height="136" MouseEnter="zombie43_MouseEnter" MouseLeave="zombie43_MouseLeave"  MouseLeftButtonDown="pos43_MouseLeftButtonDown" Margin="788,136,0,0" VerticalAlignment="Top" Width="93" Source="/93136tou.png"/>
+        <Frame x:Name="zombie1frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="30,459,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie2frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="270,459,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie3frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="430,423,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie4frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="254" Margin="94,296,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie5frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="342,318,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie6frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="550,348,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie7frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="118,163,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie8frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="350,178,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie9frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="531,210,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie10frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="147,86,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie11frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="323,80,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="zombie12frame" Visibility="Hidden" Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="253" Margin="499,90,0,0" VerticalAlignment="Top" Width="176"/>
+        
+
+    </Grid>
+</Page>
