@@ -1,0 +1,64 @@
+﻿<Page x:Class="game_2.gongjupage5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:game_2"
+        mc:Ignorable="d"
+        Title="" Height="365" Width="402">
+    <Grid>
+        <Label Content="读取宝箱编号" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" VerticalAlignment="Top" Width="94"/>
+        <ComboBox x:Name="readboxshow" HorizontalAlignment="Left" Height="21" Margin="109,14,0,0" VerticalAlignment="Top" Width="253" SelectionChanged="readplantshow_SelectionChanged"/>
+        <Label Content="您添加/修改的宝箱编号" HorizontalAlignment="Left" Height="25" Margin="10,40,0,0" VerticalAlignment="Top" Width="134"/>
+        <TextBox x:Name="posshow" HorizontalAlignment="Left" Height="25" Margin="168,40,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" FontSize="16"/>
+        <Label Content="道具名称" HorizontalAlignment="Left" Height="25" Margin="10,70,0,0" VerticalAlignment="Top" Width="58"/>
+        <TextBox x:Name="nameshow"  HorizontalAlignment="Left" Height="25" Margin="68,70,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" FontSize="16"/>
+        <Button x:Name="emptybutton" Content="清空当前文字" HorizontalAlignment="Left" Height="31" Margin="10,324,0,0" VerticalAlignment="Top" Width="91" Click="emptybutton_Click"/>
+        <Button x:Name="writebutton" Content="写入" HorizontalAlignment="Left" Height="31" Margin="287,324,0,0" VerticalAlignment="Top" Width="91" Click="writebutton_Click"/>
+        <Label Content="宝箱数量" HorizontalAlignment="Left" Height="25" Margin="221,70,0,0" VerticalAlignment="Top" Width="59"/>
+        <TextBox x:Name="numbershow"  HorizontalAlignment="Left" Height="25" Margin="280,70,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" FontSize="16"/>
+        <Label Content="道具介绍" HorizontalAlignment="Left" Height="24" Margin="8,242,0,0" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="instructions"  HorizontalAlignment="Left" Height="37" Margin="109,242,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="253" FontSize="16"/>
+        <Label Content="添加道具需要在pic文件中prop文件夹中创建对应编号.png图片" HorizontalAlignment="Left" Height="23" Margin="10,281,0,0" VerticalAlignment="Top" Width="352" Foreground="Red" FontSize="10"/>
+        <Label Content="从900之后为宝箱编号，不支持跳跃编号添加道具" HorizontalAlignment="Left" Height="23" Margin="10,300,0,0" VerticalAlignment="Top" Width="352" Foreground="Red" FontSize="10"/>
+       <Label Content="宝箱类型" HorizontalAlignment="Left" Height="25" Margin="8,98,0,0" VerticalAlignment="Top" Width="59"/>
+        <ComboBox x:Name="speciesshow" HorizontalAlignment="Left" Height="21" Margin="76,102,0,0" VerticalAlignment="Top" Width="140"/>
+        <Label Content="植物编号" HorizontalAlignment="Left" Height="25" Margin="221,98,0,0" VerticalAlignment="Top" Width="59"/>
+        <TextBox x:Name="plantmarkshow"  HorizontalAlignment="Left" Height="25" Margin="280,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" FontSize="16"/>
+        <Label Content="道具种类数量" HorizontalAlignment="Left" Height="25" Margin="8,130,0,0" VerticalAlignment="Top" Width="83"/>
+        <TextBox x:Name="propnumbershow"  HorizontalAlignment="Left" Height="25" Margin="97,130,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" FontSize="16"/>
+        <Label Content="道具1" HorizontalAlignment="Left" Height="25" Margin="186,130,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="prop1"  HorizontalAlignment="Left" Height="25" Margin="231,130,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具2" HorizontalAlignment="Left" Height="25" Margin="275,130,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="prop2"  HorizontalAlignment="Left" Height="25" Margin="318,130,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具3" HorizontalAlignment="Left" Height="25" Margin="15,160,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="prop3"  HorizontalAlignment="Left" Height="25" Margin="58,160,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具4" HorizontalAlignment="Left" Height="25" Margin="103,160,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="prop4"  HorizontalAlignment="Left" Height="25" Margin="146,160,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具5" HorizontalAlignment="Left" Height="25" Margin="189,160,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="prop5"  HorizontalAlignment="Left" Height="25" Margin="231,160,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具6" HorizontalAlignment="Left" Height="25" Margin="275,160,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="prop6"  HorizontalAlignment="Left" Height="25" Margin="318,160,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具7" HorizontalAlignment="Left" Height="25" Margin="15,186,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="prop7"  HorizontalAlignment="Left" Height="25" Margin="58,186,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具8" HorizontalAlignment="Left" Height="25" Margin="103,186,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="prop8"  HorizontalAlignment="Left" Height="25" Margin="146,186,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具9" HorizontalAlignment="Left" Height="25" Margin="189,186,0,0" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="prop9"  HorizontalAlignment="Left" Height="25" Margin="231,186,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具10" HorizontalAlignment="Left" Height="25" Margin="272,186,0,0" VerticalAlignment="Top" Width="48"/>
+        <TextBox x:Name="prop10"  HorizontalAlignment="Left" Height="25" Margin="318,186,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具11" HorizontalAlignment="Left" Height="25" Margin="8,212,0,0" VerticalAlignment="Top" Width="47"/>
+        <TextBox x:Name="prop11"  HorizontalAlignment="Left" Height="25" Margin="58,212,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具12" HorizontalAlignment="Left" Height="25" Margin="99,212,0,0" VerticalAlignment="Top" Width="47"/>
+        <TextBox x:Name="prop12"  HorizontalAlignment="Left" Height="25" Margin="146,212,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具13" HorizontalAlignment="Left" Height="25" Margin="186,212,0,0" VerticalAlignment="Top" Width="48"/>
+        <TextBox x:Name="prop13"  HorizontalAlignment="Left" Height="25" Margin="231,212,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Label Content="道具14" HorizontalAlignment="Left" Height="25" Margin="272,212,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="prop14"  HorizontalAlignment="Left" Height="25" Margin="318,212,0,0" Text="1233" TextWrapping="Wrap" VerticalAlignment="Top" Width="44" FontSize="16"/>
+        <Image x:Name="makesure" HorizontalAlignment="Left" Visibility="Hidden" Height="115" Margin="10,105,0,0" VerticalAlignment="Top" Width="243" Source="/确定添加.png"/>
+        <Image x:Name="sure" MouseLeftButtonDown="sure_MouseLeftButtonDown" HorizontalAlignment="Left" Visibility="Hidden"  Height="46" Margin="44,165,0,0" VerticalAlignment="Top" Width="48" Source="/是.png"/>
+        <Image x:Name="no" MouseLeftButtonDown="no_MouseLeftButtonDown" HorizontalAlignment="Left" Visibility="Hidden"  Height="46" Margin="168,165,0,0" VerticalAlignment="Top" Width="48" Source="/否.png" />
+
+
+    </Grid>
+</Page>

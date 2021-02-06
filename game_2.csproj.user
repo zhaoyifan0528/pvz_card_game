@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="addthing2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="addthing.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="exptiao.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="get_prop2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="start_account.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pvz_select.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pvz1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="task.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="prop_smdetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="synsuccess3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="synsuceess2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="synsuceess.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="evo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="chestopen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="plantattr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombieattr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongju.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombiedetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="get_prop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="get_exp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="chest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="chest_detail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="supershop_detail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="supershop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="normalshop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="normarlshop_detail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="prop_detail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="plantdetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie_fight3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie_fight2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie_fight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie_bf_fight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn2page2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn3page2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="prop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="warehouse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="main_interface.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

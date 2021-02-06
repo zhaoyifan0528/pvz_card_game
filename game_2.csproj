@@ -1,0 +1,594 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.gif" />
+    <None Remove="102.png" />
+    <None Remove="102tou.png" />
+    <None Remove="104167tou.png" />
+    <None Remove="106162tou.png" />
+    <None Remove="106163tou.png" />
+    <None Remove="109153tou.png" />
+    <None Remove="11430tou.png" />
+    <None Remove="119121tou.png" />
+    <None Remove="154Tou.png" />
+    <None Remove="177137tou.png" />
+    <None Remove="22.png" />
+    <None Remove="30.png" />
+    <None Remove="35117tou.png" />
+    <None Remove="367.png" />
+    <None Remove="37106tou.png" />
+    <None Remove="37161tou.png" />
+    <None Remove="40585tou.png" />
+    <None Remove="41587tou.png" />
+    <None Remove="47121tou.png" />
+    <None Remove="47130tou.png" />
+    <None Remove="4949TOU.png" />
+    <None Remove="5590tou.png" />
+    <None Remove="62black.png" />
+    <None Remove="62tou.png" />
+    <None Remove="7.png" />
+    <None Remove="800.png" />
+    <None Remove="816e24a4462309f78631a64b650e0cf3d7cad635.png" />
+    <None Remove="84tou.png" />
+    <None Remove="86152tou.png" />
+    <None Remove="87102tou.png" />
+    <None Remove="88104tou.png" />
+    <None Remove="92hei.png" />
+    <None Remove="93136tou.png" />
+    <None Remove="95.png" />
+    <None Remove="96140tou.png" />
+    <None Remove="97.png" />
+    <None Remove="98.jpg" />
+    <None Remove="99142tou.png" />
+    <None Remove="back1.png" />
+    <None Remove="back2.png" />
+    <None Remove="bandicam 2020-10-07 09-33-41-308.jpg" />
+    <None Remove="bandicam 2020-10-08 15-34-35-360.jpg" />
+    <None Remove="bandicam 2020-10-08 15-34-54-941.jpg" />
+    <None Remove="bandicam 2020-10-12 12-34-12-070.jpg" />
+    <None Remove="button1.png" />
+    <None Remove="button2.png" />
+    <None Remove="close.png" />
+    <None Remove="closebutton.png" />
+    <None Remove="dffbadec8a13632767aac96a868fa0ec09fac7cc %281%29.png" />
+    <None Remove="fightforzombiequn.png" />
+    <None Remove="fightpic.png" />
+    <None Remove="fightpic2.png" />
+    <None Remove="fightpic3.png" />
+    <None Remove="fightpic4.png" />
+    <None Remove="fightpic5.png" />
+    <None Remove="fightpic6.png" />
+    <None Remove="fightzombie1.png" />
+    <None Remove="img3.png" />
+    <None Remove="left原.jpg" />
+    <None Remove="loading_back.png" />
+    <None Remove="longgreen1.png" />
+    <None Remove="longgreen2.png" />
+    <None Remove="makesure.png" />
+    <None Remove="pagenumber.png" />
+    <None Remove="plant1kongpic.png" />
+    <None Remove="plant2kongpic.png" />
+    <None Remove="plant2kongpica.png" />
+    <None Remove="plant3kongpic.png" />
+    <None Remove="plant4kongpic.png" />
+    <None Remove="plant5kongpic.png" />
+    <None Remove="plantdetail3.png" />
+    <None Remove="plantdetail4.png" />
+    <None Remove="plantdetail5.png" />
+    <None Remove="plantdetail6.png" />
+    <None Remove="plantdetail7.png" />
+    <None Remove="plantdetailpic.png" />
+    <None Remove="plantdetailpic2.png" />
+    <None Remove="prop1.jpg" />
+    <None Remove="propdetail.png" />
+    <None Remove="pvz背景.png" />
+    <None Remove="pvz背景2.png" />
+    <None Remove="QQ截图20201005142659.png" />
+    <None Remove="right原.jpg" />
+    <None Remove="shopunit.png" />
+    <None Remove="short.png" />
+    <None Remove="soldproppc.png" />
+    <None Remove="start_account_back.png" />
+    <None Remove="syn2back.jpg" />
+    <None Remove="syn2back2.jpg" />
+    <None Remove="syn2back2fuck.jpg" />
+    <None Remove="syn2backfuck.jpg" />
+    <None Remove="syn3back.jpg" />
+    <None Remove="syn3back2.jpg" />
+    <None Remove="syn3k2back.png" />
+    <None Remove="synpic1.jpg" />
+    <None Remove="task1.png" />
+    <None Remove="task11.png" />
+    <None Remove="task2.png" />
+    <None Remove="task21.png" />
+    <None Remove="task22.png" />
+    <None Remove="task3.png" />
+    <None Remove="task4.png" />
+    <None Remove="task5.png" />
+    <None Remove="task6.png" />
+    <None Remove="taskback.png" />
+    <None Remove="task_afanda.png" />
+    <None Remove="testunit1.png" />
+    <None Remove="testunit2.png" />
+    <None Remove="testunit3.png" />
+    <None Remove="testunit4.png" />
+    <None Remove="testunit5.png" />
+    <None Remove="testzombie.png" />
+    <None Remove="unitback1.psd" />
+    <None Remove="warehouse4.jpg" />
+    <None Remove="warehouseicshow.png" />
+    <None Remove="warehousepic2.jpg" />
+    <None Remove="warehousepic3.jpg" />
+    <None Remove="warehouseunit.png" />
+    <None Remove="yipai.png" />
+    <None Remove="zombiekong1.png" />
+    <None Remove="zombiekong2.png" />
+    <None Remove="zombiekong3.png" />
+    <None Remove="zombiekong4.png" />
+    <None Remove="zombiepvz.png" />
+    <None Remove="zombiequn2pic.png" />
+    <None Remove="zombiequn3.png" />
+    <None Remove="主菜单1.png" />
+    <None Remove="仓库.png" />
+    <None Remove="使用.jpg" />
+    <None Remove="僵尸.png" />
+    <None Remove="僵尸地.jpg" />
+    <None Remove="僵尸地2.png" />
+    <None Remove="僵尸地3.png" />
+    <None Remove="兑换.png" />
+    <None Remove="兑换sure.png" />
+    <None Remove="取消1.jpg" />
+    <None Remove="取消2.jpg" />
+    <None Remove="取消3.png" />
+    <None Remove="取消4.png" />
+    <None Remove="右按钮亮.png" />
+    <None Remove="合成.jpg" />
+    <None Remove="合成.png" />
+    <None Remove="否.png" />
+    <None Remove="商店.png" />
+    <None Remove="子弹贴图.png" />
+    <None Remove="完成1.png" />
+    <None Remove="宝箱.jpg" />
+    <None Remove="左按钮亮.png" />
+    <None Remove="征服第一层.png" />
+    <None Remove="战斗开始.jpg" />
+    <None Remove="战斗开始2.png" />
+    <None Remove="战斗胜利.png" />
+    <None Remove="战斗胜利2.png" />
+    <None Remove="手.png" />
+    <None Remove="手2.png" />
+    <None Remove="是.png" />
+    <None Remove="普通.png" />
+    <None Remove="普通商店.png" />
+    <None Remove="普通商店2.png" />
+    <None Remove="暗绿条.png" />
+    <None Remove="植物生长.png" />
+    <None Remove="混沌.png" />
+    <None Remove="添加僵尸.png" />
+    <None Remove="添加商店.png" />
+    <None Remove="添加宝箱.png" />
+    <None Remove="添加库植物.png" />
+    <None Remove="添加植物.png" />
+    <None Remove="添加道具.png" />
+    <None Remove="界面.png" />
+    <None Remove="界面2.png" />
+    <None Remove="界面3.png" />
+    <None Remove="白条.png" />
+    <None Remove="确定.jpg" />
+    <None Remove="确定2.jpg" />
+    <None Remove="确定3.png" />
+    <None Remove="确定亮.jpg" />
+    <None Remove="确定添加.png" />
+    <None Remove="礼券商店.png" />
+    <None Remove="空白进化.png" />
+    <None Remove="经验框.png" />
+    <None Remove="经验框2.png" />
+    <None Remove="经验框3.png" />
+    <None Remove="绿条.png" />
+    <None Remove="菜单.png" />
+    <None Remove="菜单2.png" />
+    <None Remove="菜单3.png" />
+    <None Remove="菜单4.png" />
+    <None Remove="血条.png" />
+    <None Remove="血条2.png" />
+    <None Remove="赫鲁晓夫再世.png" />
+    <None Remove="跳过战斗.jpg" />
+    <None Remove="迎战尸潮.png" />
+    <None Remove="返回.png" />
+    <None Remove="返回游戏.png" />
+    <None Remove="进化.jpg" />
+    <None Remove="道具掉落2.png" />
+    <None Remove="铲.png" />
+    <None Remove="铲黑.png" />
+    <None Remove="阳光.png" />
+    <None Remove="鬼椒王.png" />
+    <None Remove="魔王.png" />
+    <None Remove="黑底.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BLCTClassLibrary.WpfLib">
+      <HintPath>..\..\ddtaga\ddtaga\bin\Debug\netcoreapp3.1\BLCTClassLibrary.WpfLib.dll</HintPath>
+      <EmbedInteropTypes>false</EmbedInteropTypes>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1.gif" />
+    <Resource Include="102.png" />
+    <Resource Include="102tou.png" />
+    <Resource Include="104167tou.png" />
+    <Resource Include="106162tou.png" />
+    <Resource Include="106163tou.png" />
+    <Resource Include="109153tou.png" />
+    <Resource Include="11430tou.png" />
+    <Resource Include="119121tou.png" />
+    <Resource Include="154Tou.png" />
+    <Resource Include="177137tou.png" />
+    <Resource Include="22.png" />
+    <Resource Include="30.png" />
+    <Resource Include="35117tou.png" />
+    <Resource Include="367.png" />
+    <Resource Include="37106tou.png" />
+    <Resource Include="37161tou.png" />
+    <Resource Include="40585tou.png" />
+    <Resource Include="41587tou.png" />
+    <Resource Include="47121tou.png" />
+    <Resource Include="47130tou.png" />
+    <Resource Include="4949TOU.png" />
+    <Resource Include="5590tou.png" />
+    <Resource Include="62black.png" />
+    <Resource Include="62tou.png" />
+    <Resource Include="7.png" />
+    <Resource Include="800.png" />
+    <Resource Include="816e24a4462309f78631a64b650e0cf3d7cad635.png" />
+    <Resource Include="84tou.png" />
+    <Resource Include="86152tou.png" />
+    <Resource Include="87102tou.png" />
+    <Resource Include="88104tou.png" />
+    <Resource Include="92hei.png" />
+    <Resource Include="93136tou.png" />
+    <Resource Include="95.png" />
+    <Resource Include="96140tou.png" />
+    <Resource Include="97.png" />
+    <Resource Include="98.jpg" />
+    <Resource Include="99142tou.png" />
+    <Resource Include="back1.png" />
+    <Resource Include="back2.png" />
+    <Resource Include="bandicam 2020-10-07 09-33-41-308.jpg" />
+    <Resource Include="bandicam 2020-10-08 15-34-35-360.jpg" />
+    <Resource Include="bandicam 2020-10-08 15-34-54-941.jpg" />
+    <Resource Include="bandicam 2020-10-12 12-34-12-070.jpg" />
+    <Resource Include="button1.png" />
+    <Resource Include="button2.png" />
+    <Resource Include="close.png" />
+    <Resource Include="closebutton.png" />
+    <Resource Include="dffbadec8a13632767aac96a868fa0ec09fac7cc (1).png" />
+    <Resource Include="fightforzombiequn.png" />
+    <Resource Include="fightpic.png" />
+    <Resource Include="fightpic2.png" />
+    <Resource Include="fightpic3.png" />
+    <Resource Include="fightpic4.png" />
+    <Resource Include="fightpic5.png" />
+    <Resource Include="fightpic6.png" />
+    <Resource Include="fightzombie1.png" />
+    <Resource Include="img3.png" />
+    <Resource Include="left原.jpg" />
+    <Resource Include="loading_back.png" />
+    <Resource Include="longgreen1.png" />
+    <Resource Include="longgreen2.png" />
+    <Resource Include="makesure.png" />
+    <Resource Include="pagenumber.png" />
+    <Resource Include="plant1kongpic.png" />
+    <Resource Include="plant2kongpic.png" />
+    <Resource Include="plant2kongpica.png" />
+    <Resource Include="plant3kongpic.png" />
+    <Resource Include="plant4kongpic.png" />
+    <Resource Include="plant5kongpic.png" />
+    <Resource Include="plantdetail3.png" />
+    <Resource Include="plantdetail4.png" />
+    <Resource Include="plantdetail5.png" />
+    <Resource Include="plantdetail6.png" />
+    <Resource Include="plantdetail7.png" />
+    <Resource Include="plantdetailpic.png" />
+    <Resource Include="plantdetailpic2.png" />
+    <Resource Include="prop1.jpg" />
+    <Resource Include="propdetail.png" />
+    <Resource Include="pvz背景.png" />
+    <Resource Include="pvz背景2.png" />
+    <Resource Include="QQ截图20201005142659.png" />
+    <Resource Include="right原.jpg" />
+    <Resource Include="shopunit.png" />
+    <Resource Include="short.png" />
+    <Resource Include="soldproppc.png" />
+    <Resource Include="start_account_back.png" />
+    <Resource Include="syn2back.jpg" />
+    <Resource Include="syn2back2.jpg" />
+    <Resource Include="syn2back2fuck.jpg" />
+    <Resource Include="syn2backfuck.jpg" />
+    <Resource Include="syn3back.jpg" />
+    <Resource Include="syn3back2.jpg" />
+    <Resource Include="syn3k2back.png" />
+    <Resource Include="synpic1.jpg" />
+    <Resource Include="task1.png" />
+    <Resource Include="task11.png" />
+    <Resource Include="task2.png" />
+    <Resource Include="task21.png" />
+    <Resource Include="task22.png" />
+    <Resource Include="task3.png" />
+    <Resource Include="task4.png" />
+    <Resource Include="task5.png" />
+    <Resource Include="task6.png" />
+    <Resource Include="taskback.png" />
+    <Resource Include="task_afanda.png" />
+    <Resource Include="testunit1.png" />
+    <Resource Include="testunit2.png" />
+    <Resource Include="testunit3.png" />
+    <Resource Include="testunit4.png" />
+    <Resource Include="testunit5.png" />
+    <Resource Include="testzombie.png" />
+    <Resource Include="unitback1.psd" />
+    <Resource Include="warehouse4.jpg" />
+    <Resource Include="warehouseicshow.png" />
+    <Resource Include="warehousepic2.jpg" />
+    <Resource Include="warehousepic3.jpg" />
+    <Resource Include="warehouseunit.png" />
+    <Resource Include="yipai.png" />
+    <Resource Include="zombiekong1.png" />
+    <Resource Include="zombiekong2.png" />
+    <Resource Include="zombiekong3.png" />
+    <Resource Include="zombiekong4.png" />
+    <Resource Include="zombiepvz.png" />
+    <Resource Include="zombiequn2pic.png" />
+    <Resource Include="zombiequn3.png" />
+    <Resource Include="主菜单1.png" />
+    <Resource Include="仓库.png" />
+    <Resource Include="使用.jpg" />
+    <Resource Include="僵尸.png" />
+    <Resource Include="僵尸地.jpg" />
+    <Resource Include="僵尸地2.png" />
+    <Resource Include="僵尸地3.png" />
+    <Resource Include="兑换.png" />
+    <Resource Include="兑换sure.png" />
+    <Resource Include="取消1.jpg" />
+    <Resource Include="取消2.jpg" />
+    <Resource Include="取消3.png" />
+    <Resource Include="取消4.png" />
+    <Resource Include="右按钮亮.png" />
+    <Resource Include="合成.jpg" />
+    <Resource Include="合成.png" />
+    <Resource Include="否.png" />
+    <Resource Include="商店.png" />
+    <Resource Include="子弹贴图.png" />
+    <Resource Include="完成1.png" />
+    <Resource Include="宝箱.jpg" />
+    <Resource Include="左按钮亮.png" />
+    <Resource Include="征服第一层.png" />
+    <Resource Include="战斗开始.jpg" />
+    <Resource Include="战斗开始2.png" />
+    <Resource Include="战斗胜利.png" />
+    <Resource Include="战斗胜利2.png" />
+    <Resource Include="手.png" />
+    <Resource Include="手2.png" />
+    <Resource Include="是.png" />
+    <Resource Include="普通.png" />
+    <Resource Include="普通商店.png" />
+    <Resource Include="普通商店2.png" />
+    <Resource Include="暗绿条.png" />
+    <Resource Include="植物生长.png" />
+    <Resource Include="混沌.png" />
+    <Resource Include="添加僵尸.png" />
+    <Resource Include="添加商店.png" />
+    <Resource Include="添加宝箱.png" />
+    <Resource Include="添加库植物.png" />
+    <Resource Include="添加植物.png" />
+    <Resource Include="添加道具.png" />
+    <Resource Include="界面.png" />
+    <Resource Include="界面2.png" />
+    <Resource Include="界面3.png" />
+    <Resource Include="白条.png" />
+    <Resource Include="确定.jpg" />
+    <Resource Include="确定2.jpg" />
+    <Resource Include="确定3.png" />
+    <Resource Include="确定亮.jpg" />
+    <Resource Include="确定添加.png" />
+    <Resource Include="礼券商店.png" />
+    <Resource Include="空白进化.png" />
+    <Resource Include="经验框.png" />
+    <Resource Include="经验框2.png" />
+    <Resource Include="经验框3.png" />
+    <Resource Include="绿条.png" />
+    <Resource Include="菜单.png" />
+    <Resource Include="菜单2.png" />
+    <Resource Include="菜单3.png" />
+    <Resource Include="菜单4.png" />
+    <Resource Include="血条.png" />
+    <Resource Include="血条2.png" />
+    <Resource Include="赫鲁晓夫再世.png" />
+    <Resource Include="跳过战斗.jpg" />
+    <Resource Include="迎战尸潮.png" />
+    <Resource Include="返回.png" />
+    <Resource Include="返回游戏.png" />
+    <Resource Include="进化.jpg" />
+    <Resource Include="道具掉落2.png" />
+    <Resource Include="铲.png" />
+    <Resource Include="铲黑.png" />
+    <Resource Include="阳光.png" />
+    <Resource Include="鬼椒王.png" />
+    <Resource Include="魔王.png" />
+    <Resource Include="黑底.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="addthing2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="addthing.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="exptiao.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="get_prop2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongjupage1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="start_account.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pvz_select.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pvz1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="task.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="prop_smdetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="synsuccess3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="synsuceess2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="synsuceess.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="evo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="chestopen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="plantattr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombieattr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="gongju.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombiedetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="get_prop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="get_exp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="chest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="chest_detail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="supershop_detail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="supershop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="normalshop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="normarlshop_detail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="prop_detail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="plantdetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="loading.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie_fight3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie_fight2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie_fight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie_bf_fight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="zombie1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn2page2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn3page2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="syn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="prop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="warehouse.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="main_interface.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

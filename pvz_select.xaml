@@ -1,0 +1,19 @@
+﻿<Page x:Class="game_2.pvz_select"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:game_2"
+        mc:Ignorable="d"
+        Title="" Height="501" Width="367">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="501" VerticalAlignment="Top" Width="367" Source="/367.png"/>
+        <TextBox x:Name="nowdiff" HorizontalAlignment="Center" Height="33" Margin="0,24,0,0" Text="当前难度：1" IsEnabled="False" TextWrapping="Wrap" VerticalAlignment="Top" Width="301" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="33" Margin="33,88,0,0" Text="设定难度：" IsEnabled="False" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="24"/>
+        <TextBox x:Name="writediff"  InputMethod.IsInputMethodEnabled="False"  PreviewTextInput="tb_PreviewTextInput" HorizontalAlignment="Left" Height="33" Margin="212,88,0,0" Text="1"  TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="24"/>
+        <TextBox x:Name="instruction" HorizontalAlignment="Center" Height="268" Margin="0,277,0,0" Text="" IsEnabled="False" TextWrapping="Wrap" VerticalAlignment="Top" Width="278" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18"/>
+        <Image x:Name="sure" MouseEnter="sure_MouseEnter" MouseLeave="sure_MouseLeave" MouseLeftButtonDown="sure_MouseLeftButtonDown" 
+               MouseLeftButtonUp="sure_MouseLeftButtonUp" HorizontalAlignment="Left" Height="49" Margin="184,159,0,0" VerticalAlignment="Top" Width="156" Source="确定3.png"/>
+
+    </Grid>
+</Page>
