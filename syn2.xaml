@@ -1,0 +1,82 @@
+﻿<Page x:Class="game_2.syn2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpflib="clr-namespace:BLCTClassLibrary.WpfLib;assembly=BLCTClassLibrary.WpfLib"
+        xmlns:local="clr-namespace:game_2"
+        mc:Ignorable="d"
+        Title="" Height="800" Width="1100">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="761" VerticalAlignment="Top" Width="1150" Source="/syn2backfuck.jpg"  />
+        <Image x:Name="closepic" HorizontalAlignment="Left" MouseLeave="close_MouseLeave" MouseLeftButtonDown="close_Mouseclick" Height="55" Margin="1009,14,0,0" MouseEnter="close_MouseEnter" VerticalAlignment="Top" Width="55" Source="/4949TOU.png"/>
+        <Image HorizontalAlignment="Left" Height="37" Margin="942,689,0,0" VerticalAlignment="Top" Width="52" Source="/pagenumber.png"/>
+        <Image HorizontalAlignment="Left" Height="459" Margin="659,174,0,0" VerticalAlignment="Top" Width="369" Source="/QQ截图20201005142659.png"/>
+        <Image HorizontalAlignment="Left" Height="436" Margin="659,237,0,0" VerticalAlignment="Top" Width="369" Source="/QQ截图20201005142659.png"/>
+        <Image x:Name="pos11back" HorizontalAlignment="Left" Height="143" Margin="673,193,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="pos12back" HorizontalAlignment="Left" Height="143" Margin="790,193,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="pos13back" HorizontalAlignment="Left" Height="143" Margin="907,192,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="pos21back" HorizontalAlignment="Left" Height="143" Margin="673,354,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="pos31back" HorizontalAlignment="Left" Height="143" Margin="673,517,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="pos22back" HorizontalAlignment="Left" Height="143" Margin="790,354,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="pos23back" HorizontalAlignment="Left" Height="143" Margin="907,354,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="pos32back" HorizontalAlignment="Left" Height="143" Margin="790,517,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="pos33back" HorizontalAlignment="Left" Height="143" Margin="907,517,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="gosyn2pic" HorizontalAlignment="Left" Height="47" Margin="198,71,0,0" VerticalAlignment="Top" Width="121" MouseLeftButtonDown="gotosyn2" Source="/47121tou.png" />
+        <Image x:Name="gosyn1pic" HorizontalAlignment="Left" Height="47" Margin="58,69,0,0" VerticalAlignment="Top" Width="122" MouseLeftButtonDown="gotosyn1" Source="/47121tou.png" />
+        <Image x:Name="gosyn3pic" HorizontalAlignment="Left" Height="47" Margin="337,71,0,0" VerticalAlignment="Top" Width="122" MouseLeftButtonDown="gotosyn3"  Source="/47121tou.png" />
+        <Image HorizontalAlignment="Left" MouseLeftButtonDown="gotosyn2page2" Height="35" Margin="785,134,0,0" VerticalAlignment="Top" Width="117" Source="/35117tou.png"/>
+        <Image x:Name="pos11pic" MouseLeftButtonDown="pos11pic_MouseLeftButtonDown" HorizontalAlignment="Left" Height="86" Margin="686,204,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image x:Name="pos12pic" HorizontalAlignment="Left" Height="86" Margin="803,204,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image x:Name="pos13pic" HorizontalAlignment="Left" Height="86" Margin="921,204,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image x:Name="pos21pic" HorizontalAlignment="Left" Height="86" Margin="686,365,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image x:Name="pos22pic" HorizontalAlignment="Left" Height="86" Margin="803,365,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image x:Name="pos23pic" HorizontalAlignment="Left" Height="86" Margin="921,365,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image x:Name="pos31pic" HorizontalAlignment="Left" Height="86" Margin="686,528,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image x:Name="pos32pic" HorizontalAlignment="Left" Height="86" Margin="803,528,0,0" VerticalAlignment="Top" Width="73"/>
+        <Image x:Name="pos33pic" HorizontalAlignment="Left" Height="86" Margin="921,528,0,0" VerticalAlignment="Top" Width="73"/>
+        <TextBox x:Name="pos11lvshow"  IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="683,297,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <TextBox x:Name="pos12lvshow"  IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="800,297,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <TextBox x:Name="pos13lvshow"  IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="917,297,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <TextBox x:Name="pos21lvshow"  IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="683,458,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <TextBox x:Name="pos22lvshow"  IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="800,458,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <TextBox x:Name="pos23lvshow"  IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="917,458,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <TextBox x:Name="pos31lvshow"  IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="683,622,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <TextBox x:Name="pos32lvshow"  IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="800,622,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <TextBox x:Name="pos33lvshow"  IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="917,622,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontSize="22" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <TextBox x:Name="pageshow" HorizontalAlignment="Left"  IsEnabled="False"  Height="29" Margin="944,692,0,0" Text="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" FontSize="20" TextAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Image x:Name="forwardbigpic" HorizontalAlignment="Left" Visibility="Hidden" Height="32" Margin="903,691,0,0" VerticalAlignment="Top" Width="32" Source="/左按钮亮.png"/>
+        <Image x:Name="backwordbigpic" HorizontalAlignment="Left" Visibility="Hidden" Height="34" Margin="1001,690,0,0" VerticalAlignment="Top" Width="34" Source="/右按钮亮.png"/>
+        <Image x:Name="forwardbutton" MouseLeave="forwardbutton_MouseLeave" MouseLeftButtonUp="forwardbutton_MouseLeftButtonUp" HorizontalAlignment="Left" Height="26" Margin="903,694,0,0" VerticalAlignment="Top" Width="26" MouseEnter="forwardbutton_MouseEnter" MouseLeftButtonDown="goforward" Source="/4949TOU.png"/>
+        <Image x:Name="backwardbutton" MouseEnter="backwardbutton_MouseEnter" MouseLeave="backwardbutton_MouseLeave" 
+               MouseLeftButtonUp="backwardbutton_MouseLeftButtonUp" HorizontalAlignment="Left" Height="26" Margin="1005,694,0,0" VerticalAlignment="Top" Width="26" MouseLeftButtonDown="gobackward" Source="/4949TOU.png"/>
+        <Image x:Name="plantshow" MouseLeftButtonDown="plantshow_MouseLeftButtonDown" HorizontalAlignment="Left" Height="104" Margin="180,406,0,0" VerticalAlignment="Top" Width="81" />
+        <Image x:Name="propshow" MouseLeftButtonDown="propshow_MouseLeftButtonDown" HorizontalAlignment="Left" Height="98" Margin="406,410,0,0" VerticalAlignment="Top" Width="82" />
+        <Image x:Name="synbutton" MouseEnter="synbutton_MouseEnter" MouseLeave="synbutton_MouseLeave" 
+               MouseLeftButtonDown="synbutton_MouseLeftButtonDown" MouseLeftButtonUp="synbutton_MouseLeftButtonUp" HorizontalAlignment="Left" Height="69" Margin="261,562,0,0" VerticalAlignment="Top" Width="159" Source="/合成.jpg"/>
+        <Image HorizontalAlignment="Left"  MouseEnter="pos11detailshow" MouseLeave="pos11detailhid"  MouseLeftButtonDown="pos11pic_MouseLeftButtonDown" Height="142" Margin="673,193,0,0" VerticalAlignment="Top" Width="99" Source="/99142tou.png"/>
+        <Image HorizontalAlignment="Left"  MouseEnter="pos12detailshow" MouseLeave="pos11detailhid"  MouseLeftButtonDown="pos12pic_MouseLeftButtonDown" Height="142" Margin="791,193,0,0" VerticalAlignment="Top" Width="99" Source="/99142tou.png"/>
+        <Image HorizontalAlignment="Left"  MouseEnter="pos13detailshow" MouseLeave="pos11detailhid"  MouseLeftButtonDown="pos13pic_MouseLeftButtonDown" Height="142" Margin="911,193,0,0" VerticalAlignment="Top" Width="99" Source="/99142tou.png"/>
+        <Image HorizontalAlignment="Left"  MouseEnter="pos21detailshow" MouseLeave="pos11detailhid"  MouseLeftButtonDown="pos21pic_MouseLeftButtonDown" Height="142" Margin="673,355,0,0" VerticalAlignment="Top" Width="99" Source="/99142tou.png"/>
+        <Image HorizontalAlignment="Left"  MouseEnter="pos22detailshow" MouseLeave="pos11detailhid"  MouseLeftButtonDown="pos22pic_MouseLeftButtonDown" Height="142" Margin="791,355,0,0" VerticalAlignment="Top" Width="99" Source="/99142tou.png"/>
+        <Image HorizontalAlignment="Left"  MouseEnter="pos23detailshow" MouseLeave="pos11detailhid"  MouseLeftButtonDown="pos23pic_MouseLeftButtonDown" Height="142" Margin="909,355,0,0" VerticalAlignment="Top" Width="99" Source="/99142tou.png"/>
+        <Image HorizontalAlignment="Left"  MouseEnter="pos31detailshow" MouseLeave="pos11detailhid" MouseLeftButtonDown="pos31pic_MouseLeftButtonDown"  Height="142" Margin="676,520,0,0" VerticalAlignment="Top" Width="99" Source="/99142tou.png"/>
+        <Image HorizontalAlignment="Left"  MouseEnter="pos32detailshow" MouseLeave="pos11detailhid"  MouseLeftButtonDown="pos32pic_MouseLeftButtonDown" Height="142" Margin="792,520,0,0" VerticalAlignment="Top" Width="99" Source="/99142tou.png"/>
+        <Image HorizontalAlignment="Left"  MouseEnter="pos33detailshow" MouseLeave="pos11detailhid"  MouseLeftButtonDown="pos33pic_MouseLeftButtonDown" Height="142" Margin="910,520,0,0" VerticalAlignment="Top" Width="99" Source="/99142tou.png"/>
+        <wpflib:StrokeableLabel x:Name="successtext" Text="0.0111%" Fill="#FFFFA400" Stroke="Black" StrokeThickness="0.7" FontWeight="DemiBold" FontSize="40" Margin="369,308,558,441">
+            <wpflib:StrokeableLabel.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="15" RenderingBias="Quality" Direction="290" ShadowDepth="5" Opacity="1"  />
+            </wpflib:StrokeableLabel.Effect>
+        </wpflib:StrokeableLabel>
+        <TextBox x:Name="resultshow" HorizontalAlignment="Left" Height="29" Margin="283,528,0,0" Text="提升品阶成功" Visibility="Hidden" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Background="{x:Null}" BorderBrush="{x:Null}" TextAlignment="Center"/>
+        <Frame x:Name="plant11frame" Visibility="Hidden"  Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="224" Margin="778,202,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="plant12frame" Visibility="Hidden"   Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="224" Margin="619,202,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="plant13frame" Visibility="Hidden"   Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="224" Margin="731,195,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="plant21frame" Visibility="Hidden"   Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="224" Margin="779,361,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="plant22frame" Visibility="Hidden"   Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="224" Margin="612,364,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="plant23frame" Visibility="Hidden"   Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="224" Margin="734,363,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="plant31frame" Visibility="Hidden"   Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="224" Margin="773,433,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="plant32frame" Visibility="Hidden"   Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="224" Margin="617,431,0,0" VerticalAlignment="Top" Width="176"/>
+        <Frame x:Name="plant33frame" Visibility="Hidden"   Content=""  NavigationUIVisibility="Hidden"  HorizontalAlignment="Left" Height="224" Margin="736,429,0,0" VerticalAlignment="Top" Width="176"/>
+    </Grid>
+</Page>

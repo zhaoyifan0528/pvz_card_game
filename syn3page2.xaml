@@ -1,0 +1,31 @@
+﻿<Page x:Class="game_2.syn3page2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:game_2"
+        mc:Ignorable="d"
+        Title="" Height="800" Width="1100">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="761" VerticalAlignment="Top" Width="1150" Source="/syn3back2.jpg"  />
+        <Image x:Name="closepic" HorizontalAlignment="Left" MouseLeave="close_MouseLeave" MouseLeftButtonDown="close_Mouseclick" Height="55" Margin="1009,14,0,0" MouseEnter="close_MouseEnter" VerticalAlignment="Top" Width="55" Source="/4949TOU.png"/>
+        <Image HorizontalAlignment="Left" Height="37" Margin="942,689,0,0" VerticalAlignment="Top" Width="52" Source="/pagenumber.png"/>
+        <Image HorizontalAlignment="Left" Height="459" Margin="659,174,0,0" VerticalAlignment="Top" Width="369" Source="/QQ截图20201005142659.png"/>
+        <Image HorizontalAlignment="Left" Height="436" Margin="659,237,0,0" VerticalAlignment="Top" Width="369" Source="/QQ截图20201005142659.png"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="673,193,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="790,193,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="907,192,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="673,354,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="673,517,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="790,354,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="907,354,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="790,517,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image HorizontalAlignment="Left" Height="143" Margin="907,517,0,0" VerticalAlignment="Top" Width="105" Source="/warehouseunit.png"/>
+        <Image x:Name="gosyn2pic" HorizontalAlignment="Left" Height="47" Margin="198,71,0,0" VerticalAlignment="Top" Width="121" MouseLeftButtonDown="gotosyn2" Source="/47121tou.png" />
+        <Image x:Name="gosyn1pic" HorizontalAlignment="Left" Height="47" Margin="58,69,0,0" VerticalAlignment="Top" Width="122" MouseLeftButtonDown="gotosyn1" Source="/47121tou.png" />
+        <Image x:Name="gosyn3pic" HorizontalAlignment="Left" Height="47" Margin="337,71,0,0" VerticalAlignment="Top" Width="122" MouseLeftButtonDown="gotosyn3"  Source="/47121tou.png" />
+        <Image HorizontalAlignment="Left" Height="35" Margin="787,134,0,0" MouseLeftButtonDown="gotosyn3page2" VerticalAlignment="Top" Width="117" Source="/35117tou.png"/>
+
+
+    </Grid>
+</Page>

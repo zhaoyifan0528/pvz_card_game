@@ -1,0 +1,37 @@
+﻿<Page x:Class="game_2.task"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:game_2"
+        mc:Ignorable="d"
+        Title="" Height="559" Width="835">
+    <Grid>
+        <Image Source="/taskback.png"/>
+        <ScrollViewer x:Name="myscroll" HorizontalAlignment="Left" Height="498" Margin="46,39,0,0" VerticalAlignment="Top" Width="347" VerticalScrollBarVisibility="Hidden">
+            <StackPanel x:Name="mystack">
+                <Image x:Name="task_start" Source="/task11.png" MouseLeftButtonDown="tast_start_MouseLeftButtonDown"/>
+                <Image x:Name="task_fitst_fight" Source="/task22.png" MouseLeftButtonDown="task_fitst_fight_MouseLeftButtonDown" />
+                <Image x:Name="task_first_syn" Source="/task3.png" MouseLeftButtonDown="task_first_syn_MouseLeftButtonDown"/>
+                <Image x:Name="task_new_friend" Source="/task4.png" MouseLeftButtonDown="tast_new_friend_MouseLeftButtonDown"/>
+                <Image x:Name="task_afanda" Source="/task5.png" MouseLeftButtonDown="tast_afanda_MouseLeftButtonDown"/>
+                <Image x:Name="task_anye" Source="/task6.png" MouseLeftButtonDown="task_anye_MouseLeftButtonDown"/>
+                <Image x:Name="task_zombiequn" Source="/迎战尸潮.png" MouseLeftButtonDown="task_zombiequn_MouseLeftButtonDown" />
+                <Image x:Name="task_anye_first" Source="/征服第一层.png" MouseLeftButtonDown="task_anye_first_MouseLeftButtonDown"/>
+                <Image x:Name="task_plant_grow" Source="/植物生长.png" MouseLeftButtonDown="task_plant_grow_MouseLeftButtonDown" />
+                <Image x:Name="task_final_fight" Source="/task_afanda.png" MouseLeftButtonDown="task_final_fight_MouseLeftButtonDown"/>
+                <Image x:Name="task_guijiao" Source="/鬼椒王.png" MouseLeftButtonDown="task_guijiao_MouseLeftButtonDown"/>
+                <Image x:Name="task_yumi" Source="/赫鲁晓夫再世.png" MouseLeftButtonDown="task_yumi_MouseLeftButtonDown"/>
+            </StackPanel>
+        </ScrollViewer>
+        <TextBox x:Name="instructions" HorizontalAlignment="Left" Height="249" Margin="459,101,0,0" Text="从前有座山" IsEnabled="False" TextWrapping="Wrap" VerticalAlignment="Top" Width="309" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="16" Foreground="Black" FontWeight="Bold"/>
+        <Image x:Name="close" MouseEnter="close_MouseEnter" MouseLeave="close_MouseLeave" MouseLeftButtonDown="close_MouseLeftButtonDown" MouseLeftButtonUp="close_MouseLeftButtonUp" HorizontalAlignment="Left" Height="42" Margin="765,23,0,0" VerticalAlignment="Top" Width="50" Source="/close.png"/>
+        <Label x:Name="needlabel" Content="任务需要：" IsEnabled="False" HorizontalAlignment="Left" Height="35" Margin="462,355,0,0" VerticalAlignment="Top" Width="97" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="giftlabe" Content="任务奖励：" IsEnabled="False" HorizontalAlignment="Left" Height="35" Margin="630,355,0,0" VerticalAlignment="Top" Width="99" RenderTransformOrigin="0.514,0.5" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="needtext" IsEnabled="False" HorizontalAlignment="Left" Height="71" Margin="462,395,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="16"/>
+        <TextBox x:Name="gifttext" IsEnabled="False" HorizontalAlignment="Left" Height="88" Margin="630,390,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="16"/>
+        <Image x:Name="finish" MouseEnter="finish_MouseEnter" MouseLeave="finish_MouseLeave" 
+               MouseLeftButtonDown="finish_MouseLeftButtonDown" MouseLeftButtonUp="finish_MouseLeftButtonUp" HorizontalAlignment="Left" Height="39" Margin="542,483,0,0" VerticalAlignment="Top" Width="123" Source="/完成1.png"/>
+
+    </Grid>
+</Page>
